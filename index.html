@@ -20,7 +20,7 @@
         <div class="flex items-center gap-4">
             <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-2xl">
                 <img class="w-5 h-5" src="./assets/checkbox.png" alt="">
-                <span class="text-lg font-semibold">23</span>
+                <span class="text-lg font-semibold" id="history">23</span>
                 
             </div>
             <div class=" bg-gray-100 rounded-full p-2"><img class="w-7 h-7" src="./assets/theme-btn.png" alt="">
@@ -43,7 +43,7 @@
                     </div>
                     <div>
                         <p >Task Assigned</p>
-                        <p class="text-lg font-bold">6</p>
+                        <p class="text-lg font-bold" id="task">6</p>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@
                         and ensure onClick works properly</p>
                     <div class="flex justify-between">
                         <p class="text-gray-500 text-sm mt-4">Deadline <br> <strong>21 March 2025</strong></p>
-                    <button class="mt-4 bg-purple-600 text-white py-1 px-4 rounded-lg">Completed</button>
+                    <button class="mt-4 bg-[#3466FD] text-white py-1 px-4 rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed" id="complete1">Completed</button>
                     </div>
                 </div>
 
@@ -87,7 +87,7 @@
                     <p class="text-gray-500 text-sm mt-2 bg-white rounded-lg p-4">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition</p>
                     <div class="flex justify-between">
                         <p class="text-gray-500 text-sm mt-4">Deadline <br> <strong>25 March 2025</strong></p>
-                    <button class="mt-4 bg-purple-600 text-white py-1 px-4 rounded-lg">Completed</button>
+                    <button class="mt-4 bg-[#3466FD] text-white py-1 px-4 rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed" id="complete2">Completed</button>
                     </div>
                 </div>
 
@@ -98,7 +98,7 @@
                         and ensure onClick works properly</p>
                     <div class="flex justify-between">
                         <p class="text-gray-500 text-sm mt-4">Deadline <br> <strong>31 March 2025</strong></p>
-                    <button class="mt-4 bg-purple-600 text-white py-1 px-4 rounded-lg">Completed</button>
+                    <button  class=" mt-4 bg-[#3466FD] text-white py-1 px-4 rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed" id="complete3" >Completed</button>
                     </div>
                 </div>
 
@@ -109,7 +109,7 @@
                         and ensure onClick works properly</p>
                     <div class="flex justify-between">
                         <p class="text-gray-500 text-sm mt-4">Deadline <br> <strong>1 April 2025</strong></p>
-                    <button class="mt-4 bg-purple-600 text-white py-1 px-4 rounded-lg">Completed</button>
+                    <button class="mt-4 bg-[#3466FD] text-white py-1 px-4 rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed" id="complete4">Completed</button>
                     </div>
                 </div>
 
@@ -120,7 +120,7 @@
                         and ensure onClick works properly</p>
                     <div class="flex justify-between">
                         <p class="text-gray-500 text-sm mt-4">Deadline <br> <strong>21 April 2025</strong></p>
-                    <button class="mt-4 bg-purple-600 text-white py-1 px-4 rounded-lg">Completed</button>
+                    <button class="mt-4 bg-[#3466FD] text-white py-1 px-4 rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed" id="complete5">Completed</button>
                     </div>
                 </div>
 
@@ -131,20 +131,20 @@
                         and ensure onClick works properly</p>
                     <div class="flex justify-between">
                         <p class="text-gray-500 text-sm mt-4">Deadline <br> <strong>5 May 2025</strong></p>
-                    <button class="mt-4 bg-purple-600 text-white py-1 px-4 rounded-lg">Completed</button>
+                    <button class="mt-4 bg-[#3466FD] text-white py-1 px-4 rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed" id="complete6">Completed</button>
                     </div>
                 </div>
             </div>
         </div>
 
         <!--Right Side  -->
-        <div class=" lg:w-1/4 bg-white p-4 rounded-lg shadow-md flex flex-col justify-between min-h-screen py-7">
+        <div class=" lg:w-1/4 bg-white p-4 rounded-lg shadow-md  justify-between min-h-screen py-7" id="right_side">
             <div class=" justify-center place-items-center">
                 <div class="flex">
                     <img class="w-6 h-6" src="./assets/activity.png" alt="">
                     <h2 class="text-lg font-semibold ml-3">Activity Log</h2>
                 </div>
-                <button class="mt-4 bg-purple-600 text-white py-1 px-4 rounded-lg">Clear History</button>
+                <button class="mt-4 bg-[#3466FD] text-white py-1 px-4 rounded-lg" id="clear_history">Clear History</button>
                 <hr class="border-dashed mt-5">
             </div>
 
@@ -156,7 +156,7 @@
        
 
     </div>
-    
+    <script src="./scripts/main.js"></script>
     
 </body>
 </html>
