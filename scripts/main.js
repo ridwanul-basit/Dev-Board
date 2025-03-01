@@ -1,8 +1,20 @@
 document.getElementById('complete1').addEventListener("click",function(){
     const ele1 =document.createElement('section');
+
+    const now = new Date();
+    const optionsTime = {
+        timeZone: "Asia/Dhaka",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true 
+    };
+    const currentTime1 = new Intl.DateTimeFormat("en-US", optionsTime).format(now);
+
+
     ele1.innerHTML= `
     <div class="bg-gray-100 p-4 my-4 mx-2 rounded-lg">
-                <p> You have completed the task Fix Mobile Button Issue at 11:30:15 pm</p>
+                <p> You have completed the task Fix Mobile Button Issue at <span id="bdTime">${currentTime1}</span> </p>
             </div>
     `
     document.getElementById('right_side').appendChild(ele1);
@@ -26,9 +38,18 @@ document.getElementById('complete1').addEventListener("click",function(){
 
 document.getElementById('complete2').addEventListener("click",function(){
     const ele2 =document.createElement('section');
+    const now = new Date();
+    const optionsTime = {
+        timeZone: "Asia/Dhaka",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true 
+    };
+    const currentTime2 = new Intl.DateTimeFormat("en-US", optionsTime).format(now);
     ele2.innerHTML= `
     <div class="bg-gray-100 p-4 my-4 mx-2 rounded-lg">
-                <p> You have completed the task Add Dark Mode at 11:30:15 pm</p>
+                <p> You have completed the task Add Dark Mode at <span id="bdTime">${currentTime2}</span></p>
             </div>
     `
     document.getElementById('right_side').appendChild(ele2);
@@ -49,9 +70,20 @@ document.getElementById('complete2').addEventListener("click",function(){
 })
 document.getElementById('complete3').addEventListener("click",function(){
     const ele3 =document.createElement('section');
+
+    const now = new Date();
+    const optionsTime = {
+        timeZone: "Asia/Dhaka",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true 
+    };
+    const currentTime3 = new Intl.DateTimeFormat("en-US", optionsTime).format(now);
+
     ele3.innerHTML= `
     <div class="bg-gray-100 p-4 my-4 mx-2 rounded-lg">
-                <p> You have completed the task Optimize Home Page at 11:30:15 pm</p>
+                <p> You have completed the task Optimize Home Page at <span id="bdTime">${currentTime3}</span></p>
             </div>
     `
     document.getElementById('right_side').appendChild(ele3);
@@ -73,9 +105,18 @@ document.getElementById('complete3').addEventListener("click",function(){
 })
 document.getElementById('complete4').addEventListener("click",function(){
     const ele4 =document.createElement('section');
+    const now = new Date();
+    const optionsTime = {
+        timeZone: "Asia/Dhaka",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true 
+    };
+    const currentTime4 = new Intl.DateTimeFormat("en-US", optionsTime).format(now);
     ele4.innerHTML= `
     <div class="bg-gray-100 p-4 my-4 mx-2 rounded-lg">
-                <p> You have completed the task Add new emoji at 11:30:15 pm</p>
+                <p> You have completed the task Add new emoji at <span id="bdTime">${currentTime4}</span></p>
             </div>
     `
     document.getElementById('right_side').appendChild(ele4);
@@ -97,9 +138,18 @@ document.getElementById('complete4').addEventListener("click",function(){
 })
 document.getElementById('complete5').addEventListener("click",function(){
     const ele5 =document.createElement('section');
+    const now = new Date();
+    const optionsTime = {
+        timeZone: "Asia/Dhaka",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true 
+    };
+    const currentTime5 = new Intl.DateTimeFormat("en-US", optionsTime).format(now);
     ele5.innerHTML= `
     <div class="bg-gray-100 p-4 my-4 mx-2 rounded-lg">
-                <p> You have completed the task Integrate OpenAI API at 11:30:15 pm</p>
+                <p> You have completed the task Integrate OpenAI API <span id="bdTime">${currentTime5}</span></p>
             </div>
     `
     document.getElementById('right_side').appendChild(ele5);
@@ -121,9 +171,18 @@ document.getElementById('complete5').addEventListener("click",function(){
 })
 document.getElementById('complete6').addEventListener("click",function(){
     const ele6 =document.createElement('section');
+    const now = new Date();
+    const optionsTime = {
+        timeZone: "Asia/Dhaka",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true 
+    };
+    const currentTime6 = new Intl.DateTimeFormat("en-US", optionsTime).format(now);
     ele6.innerHTML= `
     <div class="bg-gray-100 p-4 my-4 mx-2 rounded-lg ">
-                <p> You have completed the task Improve Job Searching at 11:30:15 pm</p>
+                <p> You have completed the task Improve Job Searching at <span id="bdTime">${currentTime6}</span></p>
             </div>
     `
     document.getElementById('right_side').appendChild(ele6);
