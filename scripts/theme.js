@@ -6,3 +6,9 @@ document.getElementById("changeColorBtn").addEventListener("click", function() {
     document.getElementById("mainBody").classList.remove("bg-gray-100");
     document.getElementById("mainBody").style.backgroundColor = getRandomHexColor();
 });
+
+document.getElementById("next_page").addEventListener("click",function(event){
+    event.preventDefault();
+    window.location.href = "./second.html";
+});
+
