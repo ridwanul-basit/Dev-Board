@@ -1,7 +1,7 @@
 function updateBangladeshTime() {
     const now = new Date();
-    const optionsWeekday = { timeZone: "Asia/Dhaka", weekday: "short" }; // "Sun"
-    const optionsDate = { timeZone: "Asia/Dhaka", month: "short", day: "numeric", year: "numeric" }; // "Mar 3, 2025"
+    const optionsWeekday = { timeZone: "Asia/Dhaka", weekday: "short" }; 
+    const optionsDate = { timeZone: "Asia/Dhaka", month: "short", day: "numeric", year: "numeric" }; 
 
    
     const weekday = new Intl.DateTimeFormat("en-US", optionsWeekday).format(now);

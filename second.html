@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Dev Board</title>
 </head>
-<body class="bg-[#F4F7FF] py-6 md:px-14 sm:px-8">
+<body class="bg-[#F4F7FF] py-6 md:px-14 px-8">
     <div class="flex justify-between items-center bg-white shadow-md p-4 rounded-lg">
         <!-- Logo -->
         <h1 class="text-xl  flex items-center">
@@ -30,60 +30,65 @@
         <div>
             <hr class="border-dashed border-t-2  border-gray-300 mt-5">
         </div>
-        <div>
-            <p></p>
+        <div class="mt-4">
+            <p class="text-gray-500"> We can select an element in DOM by using getElementById("id") , getElementsByClassName("class") , getElementsByTagName("tag") , querySelector("selector") , querySelectorAll("selector").</p>
         </div>
 
 
     </div>
     <div class="bg-white shadow-md p-4 rounded-lg py-4 mb-5">
         <div>
-            <h1 class="font-bold"> Question-2: What are the different ways to select an element in the DOM?</h1>
+            <h1 class="font-bold"> Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
         </div>
         <div>
             <hr class="border-dashed border-t-2  border-gray-300 mt-5">
         </div>
-        <div>
-            <p></p>
+        <div class="mt-4">
+            <p class="text-gray-500">innerHTML parses HTML and returns the HTML content, including hidden elements. innerText only returns the visible text, ignore hidden elements. textContent returns all the text content, including hidden text, and does not parse HTML. Use </p>
         </div>
 
 
     </div>
     <div class="bg-white shadow-md p-4 rounded-lg py-4 mb-5">
         <div>
-            <h1 class="font-bold"> Question-3: What are the different ways to select an element in the DOM?</h1>
+            <h1 class="font-bold"> Question-3: What is event delegation in the DOM?</h1>
         </div>
         <div>
             <hr class="border-dashed border-t-2  border-gray-300 mt-5">
         </div>
-        <div>
-            <p></p>
+        <div class="mt-4">
+            <p class="text-gray-500">Event delegation is a technique where instead of attaching event listeners to individual child elements.This improves performance and simplifies code when dealing with dynamically added elements.</p>
         </div>
 
 
     </div>
     <div class="bg-white shadow-md p-4 rounded-lg py-4 mb-5">
         <div>
-            <h1 class="font-bold"> Question-4: What are the different ways to select an element in the DOM?</h1>
+            <h1 class="font-bold"> Question-4: What is event bubbling in the DOM?</h1>
         </div>
         <div>
             <hr class="border-dashed border-t-2  border-gray-300 mt-5">
         </div>
-        <div>
-            <p></p>
+        <div class="mt-4">
+            <p class="text-gray-500">Event bubbling is the process where an event starts from the target element and bubbles up through its parent elements until it reaches the root of the document.This allows the event to be handled at multiple levels of the DOM, which is useful for event delegation.</p>
         </div>
 
 
     </div>
     <div class="bg-white shadow-md p-4 rounded-lg py-4">
         <div>
-            <h1 class="font-bold"> Question-5: What are the different ways to select an element in the DOM?</h1>
+            <h1 class="font-bold"> Question-5: How do you create, add, and remove elements using JavaScript?</h1>
         </div>
         <div>
             <hr class="border-dashed border-t-2  border-gray-300 mt-5">
         </div>
-        <div>
-            <p></p>
+        <div class="mt-4">
+            <p class="text-gray-500">const newDiv = document.createElement("div"); <br>
+                newDiv.textContent = "I am a new element!"; <br>
+                
+                document.body.appendChild(newDiv); <br>
+                
+                  document.body.removeChild(newDiv);</p>
         </div>
 
 
