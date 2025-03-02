@@ -116,7 +116,7 @@ document.getElementById('complete4').addEventListener("click",function(){
     const currentTime4 = new Intl.DateTimeFormat("en-US", optionsTime).format(now);
     ele4.innerHTML= `
     <div class="bg-gray-100 p-4 my-4 mx-2 rounded-lg">
-                <p> You have completed the task Add new emoji at <span id="bdTime">${currentTime4}</span></p>
+                <p> You have completed the task Add new emoji 🤲 at <span id="bdTime">${currentTime4}</span></p>
             </div>
     `
     document.getElementById('right_side').appendChild(ele4);
